@@ -33,6 +33,9 @@ dependencies {
 	compile group: 'de.codecentric', name: 'spring-boot-admin-server', version: '1.5.3'
 	compile group: 'de.codecentric', name: 'spring-boot-admin-server-ui', version: '1.5.3'
 	
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-security'
+	compile group: 'de.codecentric', name: 'spring-boot-admin-server-ui-login', version: '1.5.3'
+	
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 	
 }
