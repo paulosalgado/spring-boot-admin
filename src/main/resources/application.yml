@@ -1,4 +1,4 @@
 security: 
   user: 
-    name: admin
+    name: user
     password: admin
