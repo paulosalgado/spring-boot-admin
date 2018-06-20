@@ -21,7 +21,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		
 		// Requests for the login page and the static assets are allowed
 		http.authorizeRequests()
-			.antMatchers("/login.html", "/**/*.css", "/img/**", "/third-party/**")
+			.antMatchers("/login.html", "/**/*.css", "/img/**", "/third-party/**", "/hello")
 			.permitAll();
 		
 		// ... and any other request needs to be authorized
