@@ -1,6 +1,19 @@
+server:
+  port: 8080
+
 spring: 
-  application: 
+  application:
     name: spring-boot-admin
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        enabled: true
+        instance-id: ${spring.application.name}:${random.value}
+        health-check-interval: 5s
+        health-check-critical-timeout: 1m
+      enabled: true
 
 security: 
   user: 

@@ -1,12 +1,13 @@
 package com.paulosalgado;
 
+import de.codecentric.boot.admin.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import de.codecentric.boot.admin.config.EnableAdminServer;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @EnableAdminServer
 @SpringBootApplication
+@EnableDiscoveryClient
 public class SpringBootAdminApplication {
 	
 	public static void main(String[] args) {

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SpringBootAdminApplication",
+            "request": "launch",
+            "mainClass": "com.paulosalgado.SpringBootAdminApplication",
+            "projectName": "spring-boot-admin-java"
+        }
+    ]
+}
